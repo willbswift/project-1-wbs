@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/stylesheet.css">
+    <title>Pups, Parks n Playdates</title>
+
+</head>
+
+<body>
+
+    <div class="zipdiv">
+        <div class="row">
+            <div class="jumbotron jumbotron-fluid col-xs-12">
+                <div class="container ppptitle">
+                    <h1 class="display-4">Pups, Parks, &amp; Playdates</h1>
+                    <p class="lead">Welcome to the party!</p>
+                    <p class="lead-zip">Enter your zip code to get started.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+            </div>
+        </div>
+        <div class="row zipCode">
+            <div class="offset-2"></div>
+            <div class="input-group mb-3 col-8">
+                <input type="number" class="form-control" id="zip" placeholder="Zip Code">
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row gozip">
+            <div class="input-group-append">
+                <button type="submit" id="zipbutton" class="btn btn-block"><img class="btn-img" src="assets/images/paw.png">find
+                    a park!<img class="btn-img" src="assets/images/paw.png"></button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="listdiv">
+
+        <header class="row">
+            <div class="col-12 show weather">
+                <div id="temp">
+                    <table class="table">
+                        <thead class="thead">
+                            <tr>
+                                <th scope="col">low</th>
+                                <th scope="col">high</th>
+                                <th scope="col">outside looks like</th>
+                            </tr>
+                        </thead>
+                        <tbody id="forecast">
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </header>
+
+        <div class="container" id="listcontainer">
+
+            <header class="row">
+                <div class="col-12 newParty">
+                    <h3>Parks Near You:</h3>
+                </div>
+            </header>
+            <div class="row">
+                <div class="col-sm" id="inactive">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!---------------------------------- PAGE THREE ------------------------------------------------------>
+    <div class="page3">
+        <div class="row">
+            <div class="col-sm mapCol">
+                <div id="map"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" id="dog-list">
+                <table class="table-sm table-striped">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col-sm" id="dogName">Name</th>
+                            <th scope="col-sm" id="dogAge">Age</th>
+                            <th scope="col-sm" id="dogBreed">Breed</th>
+                            <th scope="col-sm" id="startTime">Arrival Time</th>
+                            <th scope="col-sm" id="endTime">End Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bronson</td>
+                            <td>4</td>
+                            <td>Jack Russle</td>
+                            <td>12:45pm</td>
+                            <td class="time">1:45pm</td>
+                        </tr>
+                        <tr>
+                            <td>Nara</td>
+                            <td>5</td>
+                            <td>Mutt</td>
+                            <td>10:00am</td>
+                            <td class="time">12:00pm</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row btnRow">
+            <div class="col-sm add-dog">
+                <button type="submit" class="btn" id="add-pup-3">Add a pup!</button>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------- PAGE FOUR ------------------------------------------------------------------>
+
+    <div class="userdiv">
+        <div class="container contPlay">
+            <div class="row">
+                <div class="col-11">
+                    <h2 id="playPara">Let's go play!</h2>
+                    <br>
+
+                    <!-- <img class="pawprint" src="assets/images/paw-print.png"> -->
+                    <h4>fill in your pet's info to check in</h4>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="containerForm">
+            <form id="add-dog-form">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label>What's your pet's name?</label>
+                            <input type="text" class="form-control" id="dogName" placeholder="Ex: Fido">
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label>How old is your pet?</label>
+                            <input type="text" class="form-control" id="dogAge" placeholder="Ex: 4 years">
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label for="dog-breed">What is your dog's breed?</label>
+                            <input type="text" class="form-control" id="dogBreed" placeholder="Ex: Beagle, Mutt, etc.">
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label>How long will you stay and play?</label>
+                            <input type="text" class="form-control" id="startTime" placeholder="Start Time (HH:mm military time)">
+                            <input type="text" class="form-control" id="endTime" placeholder="End Time (HH:mm military time">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" id="submit" class="btn btn-block dogdaybutton"><img class="btn-img" src="assets/images/paw.png">Play
+                    Time!
+                    <img class="btn-img" src="assets/images/paw.png"></button>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- jquery link -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjOzz5XzUwhDvQ7JNpCTWs1v4dqfDbtZI&callback=initMap"></script>
+    <!--   firebase js link -->
+    <script src="https://www.gstatic.com/firebasejs/5.5.1/firebase.js"></script>
+    <!-- moment.js -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <!-- link for popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <!-- javascript -->
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>

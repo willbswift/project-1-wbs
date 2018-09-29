@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+
+h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+h5{
+    font-family: 'Shadows Into Light Two', cursive;
+    size: 9px;
+}
+
+body{
+    width: 95%;
+    background-image: url("../images/mural-dog.jpeg");
+}
+
+.lead-zip{
+    margin-bottom: 0px;
+}
+
+.nearYou{
+    text-align: center;
+    margin: auto;
+    background-color: #e9ecef;
+    color: rgb(34, 58, 58);
+    font-size: 32px;
+    font-style: bold;
+}
+
+.jumbotron{
+
+    position: relative;
+    background: url("https://static1.squarespace.com/static/564a410de4b07aecff92e215/t/5afdcbb80e2e72d4ce563808/1526582214961/Dogs+ZilkerBark+Epic3-1.jpg?format=1500w") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.zipCode{
+    margin-top:50px;
+}
+
+.gozip{
+display: flex;
+justify-content: center;
+
+}
+
+.newParty{
+    text-align: center;
+    margin: auto;
+    /* background-color: #e9ecef; */
+    color: rgb(34, 58, 58);
+    font-size: 32px;
+    font-style: bold;
+}
+
+.weather{
+    width: 375px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1em;
+    background-image: url("http://kasetsombun.chaiyaphum.doae.go.th/images/%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%872.jpg");
+    background-size: 70%;
+    border: 1px solid rgb(81, 95, 67, .7);
+    border-radius: 25px;
+    color: rgb(34, 58, 58);
+    font-size: 32px;
+    font-style: bold;
+}
+
+.table{
+    margin-bottom: 0px;
+}
+.table td {
+padding-top: .25rem;
+padding-bottom: .1rem;
+text-align: center;
+}
+
+.table th{
+    padding-top: .25rem;
+    padding-bottom: .1rem;
+    text-align: center;
+    }
+
+
+.dot {
+    height: 20rem;
+    width: 20rem;
+    border: 4px solid rgb(211. 210, 162);
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #eee;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+.container{
+    width: 92%;
+    background-color: #eee;
+    /* border: 1px solid #111;
+    border-style: groove; */
+    padding: .6em;
+    border-radius: 10px;
+}
+
+th{
+    font-size: 12px;
+}
+
+td{
+    font-size: 12px;
+}
+
+#dog-list{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.add-dog{
+    display: flex;
+    justify-content: center;
+}
+.btnRow{
+    vertical-align: bottom !important;
+    margin-top: 3em;
+}
+
+.time{
+    text-align: center;
+}
+
+.btn{
+    background-color:rgb(103, 120, 86);
+    border: .15em solid rgb(211, 210, 162);
+    border-radius: 25px;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.hide{
+    display: none;
+}
+
+
+.heading{
+    margin-top: 2em;
+    margin-bottom: 4em;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+h2{
+    font-family: 'Shadows Into Light Two', cursive;
+    letter-spacing: .28em;
+    font-weight: 700;
+}
+
+label{
+    font-weight: 500;
+    background-color: rgba(209,217,228, .5);
+}
+
+.pawprint{
+    width: 50px;
+    height: auto;
+    display: flex;
+    justify-content: right;
+}
+
+#add-dog-form{
+    position: center;
+}
+
+.btn{
+    background-color:rgb(103, 120, 86);
+    border: .1em solid rgb(233,220,87);
+    border-radius: 25px;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.form-control{
+    background-color: rgba(237,237,237, .85);
+}
+
+.btn-img{
+    height: 35px;
+    width: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+#map {
+    
+    padding: 4em;
+    width: 350px;
+    height: 350px;
+    max-width: 100%;
+    border-radius: 999px;
+    -moz-border-radius: 999px;
+    -khtml-border-radius: 999px;
+    -webkit-border-radius: 999px;
+}
+
+html, body {
+    height: 100%;
+    margin: .5em;
+    padding: .5em;
+}
+
+.mapCol{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contPlay{
+background: url("https://static1.squarespace.com/static/564a410de4b07aecff92e215/t/5afdcbb80e2e72d4ce563808/1526582214961/Dogs+ZilkerBark+Epic3-1.jpg?format=1500w") center center;
+background-size: 350px;
+opacity: 0.9;
+}
+
+#playPara{
+    color: whitesmoke;
+    text-shadow: 1.5px 1.5px #000;
+}
+
+h4{
+    color: whitesmoke;
+    text-shadow: 1.5px 1.5px #635f5f;
+    font-weight: 500;
+    font-size: 18px;
+}
