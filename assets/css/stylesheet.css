@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+
+h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #eee;
+}
+
+body{
+    width: 95%;
+    background-image: url("../images/mural-dog.jpeg");
+}
+
+.nearYou{
+    text-align: center;
+    margin: auto;
+    background-color: #e9ecef;
+    color: rgb(34, 58, 58);
+    font-size: 32px;
+    font-style: bold;
+}
+
+.jumbotron-fluid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gozip{
+display: flex;
+justify-content: center;
+}
+
+.newParty{
+    text-align: center;
+    margin: auto;
+    background-color: #e9ecef;
+    color: rgb(34, 58, 58);
+    font-size: 32px;
+    font-style: bold;
+}
+
+.weather{
+    text-align: center;
+    margin: auto;
+    background-color: #e9ecef;
+    color: rgb(34, 58, 58);
+    font-size: 32px;
+    font-style: bold;
+}
+
+.selectedpark {
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;  
+    background-color: #e9ecef;
+}
+
+#active {
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;  
+    background-color: #e9ecef;
+}
+#inactive {
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;  
+    background-color: #e9ecef;
+}
+
+.dot {
+    height: 20rem;
+    width: 20rem;
+    border: 4px solid rgb(211. 210, 162);
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #eee;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+.container{
+    width: 92%;
+    background-color: #eee;
+    /* border: 1px solid #111;
+    border-style: groove; */
+    padding: .6em;
+    border-radius: 10px;
+}
+
+#dog-list{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.add-dog{
+    display: flex;
+    justify-content: center;
+}
+.btnRow{
+    vertical-align: bottom !important;
+    margin-top: 3em;
+}
+
+.time{
+    text-align: center;
+}
+
+.btn{
+    background-color:rgb(103, 120, 86);
+    border: .15em solid rgb(211, 210, 162);
+    border-radius: 25px;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.hide{
+    display: none;
+}
+
+/* body{
+    width: 90%;
+    margin: 1em;
+    background-image: url("../images/zilker-bark.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(211,210,162);
+} */
+
+.heading{
+    margin-top: 2em;
+    margin-bottom: 4em;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+h2{
+    letter-spacing: .28em;
+    font-weight: 700;
+}
+
+p{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+label{
+    font-weight: 500;
+    background-color: rgba(209,217,228, .5);
+}
+
+.pawprint{
+    width: 50px;
+    height: auto;
+    display: flex;
+    justify-content: right;
+}
+
+#add-dog-form{
+    position: center;
+}
+
+.btn{
+    background-color:rgb(103, 120, 86);
+    border: .15em solid rgb(233,220,87);
+    border-radius: 25px;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.form-control{
+    background-color: rgba(237,237,237, .85);
+}
+
+.btn-img{
+    height: 35px;
+    width: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#map {
+    margin: 2em;
+    width: 500px;
+    height: 500px;
+    max-width: 100%;
+    border-radius: 999px;
+    -moz-border-radius: 999px;
+    -khtml-border-radius: 999px;
+    -webkit-border-radius: 999px;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
